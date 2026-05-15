@@ -25,7 +25,7 @@ The code on this project is part of Coursera´s IBM Build AI Agents using MCP, t
 │       └── server.py
 │
 ├── Module 3/
-│   └── MCP Hosts and Clients
+│   └── Work in Progress
 │
 ├── .gitignore
 ├── README.md
