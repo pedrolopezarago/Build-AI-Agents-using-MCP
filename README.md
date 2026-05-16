@@ -58,6 +58,8 @@ It focuses on how clients connect to MCP servers and how MCP can be integrated i
 
 ## Setup
 
+This repository was run and built on IBM SkillsBuild platform so API keys used were local. Please use your own API keys to run some of the scripts in the repo.
+
 Create a virtual environment:
 
 ```bash
