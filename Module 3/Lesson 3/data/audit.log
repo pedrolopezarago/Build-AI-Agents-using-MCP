@@ -1,0 +1,9 @@
+[2026-05-16T07:39:42.872528] TOOL: read_file - Decision: ALLOWED - Reason: Policy: allow
+[2026-05-16T07:40:23.530948] TOOL: delete_file - Decision: DENIED - Reason: Policy: deny
+[2026-05-16T07:41:03.760077] TOOL: write_file - Decision: ASK - Reason: Awaiting approval
+[2026-05-16T07:41:12.428084] TOOL: write_file - Decision: ALLOWED - Reason: Policy: ask
+[2026-05-16T07:41:12.431886] WRITE: new_file.txt
+[2026-05-16T07:42:16.225751] TOOL: read_file - Decision: ALLOWED - Reason: Policy: allow
+[2026-05-16T07:42:48.677233] TOOL: delete_file - Decision: DENIED - Reason: Policy: deny
+[2026-05-16T07:43:17.051684] TOOL: write_file - Decision: ASK - Reason: Awaiting approval
+[2026-05-16T07:43:34.342411] TOOL: write_file - Decision: ASK - Reason: Awaiting approval
