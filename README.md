@@ -25,7 +25,23 @@ The code on this project is part of Coursera´s IBM Build AI Agents using MCP, t
 │       └── server.py
 │
 ├── Module 3/
-│   └── Work in Progress
+│   ├── Lesson 1/
+│   │   ├── resources/
+│   │   ├── mcp_client.py
+│   │   ├── mcp_server.py
+│   │   └── test.txt
+│   ├── Lesson 2/
+│   │   ├── workspace/
+│   │   ├── mcp_http_client_app.py
+│   │   ├── mcp_http_client_base.py
+│   │   ├── mcp_http_host_app.py
+│   │   └── mcp_http_server.py
+│   └── Lesson 3/
+│       ├── data/
+│       ├── mcp_permission_client_app.py
+│       ├── mcp_permission_client_base.py
+│       ├── mcp_permission_host_app.py
+│       └── mcp_permission_server.py
 │
 ├── .gitignore
 ├── README.md
@@ -54,7 +70,20 @@ Main files:
 
 This module explores MCP hosts and client implementation patterns.
 
-It focuses on how clients connect to MCP servers and how MCP can be integrated into broader AI agent workflows.
+It focuses on how clients connect to MCP servers, how HTTP-based MCP communication works, and how permission-aware MCP applications can be structured.
+
+Main files:
+
+- `mcp_client.py`: Basic MCP client implementation.
+- `mcp_server.py`: Basic MCP server implementation.
+- `mcp_http_server.py`: HTTP MCP server.
+- `mcp_http_client_base.py`: Base HTTP client logic.
+- `mcp_http_client_app.py`: HTTP client application.
+- `mcp_http_host_app.py`: Host application for HTTP workflows.
+- `mcp_permission_server.py`: Permission-aware MCP server.
+- `mcp_permission_client_base.py`: Base permission-aware client logic.
+- `mcp_permission_client_app.py`: Permission-aware client application.
+- `mcp_permission_host_app.py`: Host application for permission workflows.
 
 ## Setup
 
